@@ -75,7 +75,7 @@ export const Name: React.FC<React.HTMLProps<HTMLInputElement> & InputProps> =
               readOnly: shareMode || playing || run,
               spellCheck: false,
               autoFocus: true,
-              placeholder: "Enter your name",
+              placeholder: "Nhap ten cua ban | vidu: khaicybers",
               ...rest,
             }}
           />
