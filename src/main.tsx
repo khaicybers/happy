@@ -10,5 +10,25 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
     <ToastContainer />
+    <div style={{ textAlign: "center", marginTop: "20px" }}>
+      <a
+        href="https://github.com/khaicybers"
+        style={{
+          fontFamily: "Montserrat",
+          fontWeight: "bold",
+          fontSize: "1.5rem",
+          color: "#fff",
+          textDecoration: "none",
+          cursor: "pointer",
+        }}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Follow me github khaicybers 
+      </a>
+    </div>
   </React.StrictMode>
+  
+  
+  
 );
